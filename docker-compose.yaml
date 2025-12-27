@@ -2,4 +2,4 @@ services:
   web:
     image: httpd:alpine
     ports:
-      - "8080:80"
+      - "9090:80"
