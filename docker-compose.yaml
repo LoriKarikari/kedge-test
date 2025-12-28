@@ -3,3 +3,5 @@ services:
     image: httpd:alpine
     ports:
       - "9090:80"
+    environment:
+      - DEBUG=true
