@@ -16,6 +16,8 @@ services:
 
   wordpress:
     image: wordpress:latest
+    labels:
+      - "updated=2026-01-18"
     volumes:
       - wp_data:/var/www/html
     ports:
